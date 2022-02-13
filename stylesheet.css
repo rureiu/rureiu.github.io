@@ -1,0 +1,153 @@
+.container{
+    max-width:1000px;
+    margin:0 auto;
+    margin-top:50px;
+}
+header a{
+    text-decoration:none;
+}
+header h2{
+    font-weight:normal;
+}
+.mainvisual img{
+    width:100%;
+    height:auto;
+}
+.main-container{
+    max-width:800px;
+    margin:0 auto;
+}
+.index{
+    margin-top:50px;
+    background-color:rgb(235, 232, 232);
+    padding-top:50px;
+    padding-bottom:60px;
+}
+.index h2{
+    text-align:center;
+    font-size:18px
+}
+.index-text{
+    margin:0 auto;
+    max-width:680px;
+}
+.index-text ol{
+    list-style-position:inside;
+    border:1px solid black;
+    font-size:14px;
+    margin-top:30px;
+    padding-left: 1em;
+    text-indent: -1em;
+    padding-top:30px;
+    padding-bottom:10px;
+}
+.index-text li{
+    margin:0 auto;
+    max-width:410px;
+    margin-bottom:20px;
+}
+.image{
+    display:flex;
+    flex-wrap: wrap;
+    max-width:800px;
+    margin:0 auto;
+    margin-top:60px;
+    margin-bottom:60px;
+}
+.image img{
+    width:50%;
+    padding:8px 8px;
+}
+.detail{
+    background-color:rgb(235, 232, 232);
+    padding-top:50px;
+    padding-bottom:60px;
+}
+.detail h2{
+    font-size:17px;
+    text-align:center;
+    margin-bottom:30px;
+}
+.detail-section{
+    display:flex;
+}
+.detail-title{
+    width:335px;
+    font-size:14px;
+    padding-left:55px;
+    border-right:1px solid;
+    height:140px;
+}
+.detail-title dt{
+    font-weight:bold;
+}
+.detail-title dd{
+    margin-bottom:10px;
+}
+.detail-text p{
+    font-size:14px;
+}
+.detail-text{
+    padding-left:40px;
+    padding-right:60px;
+    height:40px;
+}
+.detail-p{
+    margin-bottom:20px;
+}
+.link{
+    font-size:14px;
+    color:black;
+}
+footer p{
+    font-size:8px;
+}
+.footer-copy{
+    text-align:center;
+    margin-top:80px;
+    margin-bottom:15px;
+}
+
+@media(max-width:1025px){
+    .image{
+        flex-direction: column;
+        max-width:600px;
+    }
+    .image img{
+        width:100%;
+        height:auto;
+        margin:0 auto;
+    }
+    .main-container{
+        padding:0 20px;
+    }
+    .index-text{
+        max-width:750px;
+        padding:0px 20px;
+    }
+    .index-text ol{
+        padding-left:30px;
+        padding-right:30px;
+    }
+    .detail-section{
+        flex-direction: column;
+        padding:0px 20px;
+    }
+    .detail-title{
+        border-right:none;
+        border-bottom:1px solid;
+        padding-left:0;
+        padding-bottom:30px;
+        width:100%;
+        height:auto;
+    }
+    .detail-text{
+        height:auto;
+        padding-left:0px;
+        padding-right:0px;
+        padding-top:40px;
+    }
+    .detail{
+        padding-bottom:40px;
+    }
+}
